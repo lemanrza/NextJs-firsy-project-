@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-
+import './globals.css'
+import HeaderOrSidebar from "./components/HeaderOrSidebar";
 
 export const metadata: Metadata = {
   title: "Home page",
@@ -11,9 +12,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body>
+        <HeaderOrSidebar />
         {children}
       </body>
     </html>
