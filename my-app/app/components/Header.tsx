@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '700'], // specify font weights
+  weight: ['400', '700'], 
 });
 const Header = () => {
   return (

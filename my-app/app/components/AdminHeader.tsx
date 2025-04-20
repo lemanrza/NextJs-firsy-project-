@@ -1,5 +1,4 @@
 import { Bell, Menu } from 'lucide-react';
-import Link from 'next/link'
 import React from 'react'
 
 const Sidebar = () => {
